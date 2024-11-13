@@ -1,1 +1,61 @@
-site_name: My Docs
+site_name: The Momentum Matrix
+site_description: Strategic Growth Hacking on Your Terms
+site_author: WentCloud
+site_url: https://wentcloud.com
+
+theme:
+  name: material
+  palette:
+    primary: 'indigo'
+    accent: 'pink'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  logo: 'images/logo.png'
+  favicon: 'images/favicon.ico'
+
+nav:
+  - Home: index.md
+  - The Momentum Matrix Pillars:
+      - Purpose and Rationale: purpose-and-rationale.md
+      - Impact: impact.md
+      - People: people.md
+      - Offerings: offerings.md
+  - Implementation Strategy: implementation-strategy.md
+  - Expected Results: expected-results.md
+  - Commitment to Integrity: commitment-to-integrity.md
+  - Conclusion: conclusion.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/yourprofile
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/yourprofile
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourprofile
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - footnotes
+  - meta
+
+plugins:
+  - search
+
+extra_css:
+  - css/custom.css
+
+extra_javascript:
+  - js/custom.js
+
+# Metadata for SEO
+extra:
+  generator: mkdocs
+  robots: index, follow
+  keywords: growth hacking, strategic growth, leadership, high-performing teams, innovation, social impact, economic change
+  description: The Momentum Matrix provides a strategic path for organizations to achieve scalable growth, increased impact, and enriched experiences—fueling momentum toward a sustainable and impactful future.
