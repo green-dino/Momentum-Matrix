@@ -1,5 +1,7 @@
 # The Momentum Matrix
 
+
+
 ## Strategic Growth Hacking on Your Terms
 
 The most impactful organizations are led by purposeful leaders and high-performing teams who drive innovative experiences—sparking lasting social and economic change.
@@ -8,13 +10,18 @@ Through our consulting, facilitation, and coaching, we help entrepreneurs, leade
 
 Partner with us to harness an integrated strategy that elevates your offerings, empowers your people, and amplifies your impact like never before.
 
+| Pillar     | Objective                                                                 | Components                                                                                                                                                                                                 | Outcomes                                                                                                      |
+|------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| [IMPACT](impact.md)   | To drive sustainable growth and create positive change.          | - **Value Creation:** Generate tangible value for stakeholders, ecosystems, and society.<br>- **Sustainability:** Integrate practices that support long-term benefits and resilience.<br>- **Adaptability:** Build flexible systems that respond to future challenges. | Strengthened brand reputation, societal impact, and alignment with evolving market demands.                   |
+| [PEOPLE](people.md)   | To develop high-performing, purpose-driven teams.               | - **Leadership Development:** Empower leaders at every level.<br>- **Purpose and Belonging:** Cultivate a culture of shared values and connection.<br>- **Engagement and Empowerment:** Enable teams to innovate and contribute meaningfully.       | Enhanced employee satisfaction, reduced turnover, and the creation of impactful, memorable experiences.       |
+| [OFFERINGS](offerings.md) | To deliver innovative, customer-centric products and experiences. | - **Customer Delight:** Craft offerings that exceed expectations and inspire loyalty.<br>- **Innovation:** Continuously evolve to meet changing market needs.<br>- **Sustainability:** Design products and services with a focus on longevity and environmental responsibility. | Increased customer base, strengthened brand loyalty, and attraction of top talent.                            |
 ## The Momentum Matrix Pillars
 
 ### 1. Purpose and Rationale
 * **Why we do it:** To build sustainable growth, future-proof operations, and drive meaningful impact.
 * **Framework overview:** The Momentum Matrix focuses on three key pillars—Impact, People, and Offerings—to create continuous progress and lasting success.
 
-#### A. IMPACT
+#### A. [IMPACT](impact.md) 
 * **Objective:** To drive sustainable growth and create positive change.
 * **Components:**
   - **Value Creation:** Generate tangible value for stakeholders, ecosystems, and society.
@@ -22,7 +29,7 @@ Partner with us to harness an integrated strategy that elevates your offerings, 
   - **Adaptability:** Build flexible systems that respond to future challenges.
 * **Outcomes:** Strengthened brand reputation, societal impact, and alignment with evolving market demands.
 
-#### B. PEOPLE
+#### B. [PEOPLE](people.md)
 * **Objective:** To develop high-performing, purpose-driven teams.
 * **Components:**
   - **Leadership Development:** Empower leaders at every level.
@@ -30,7 +37,7 @@ Partner with us to harness an integrated strategy that elevates your offerings, 
   - **Engagement and Empowerment:** Enable teams to innovate and contribute meaningfully.
 * **Outcomes:** Enhanced employee satisfaction, reduced turnover, and the creation of impactful, memorable experiences.
 
-#### C. OFFERINGS
+#### C. [OFFERINGS](offerings.md)
 * **Objective:** To deliver innovative, customer-centric products and experiences.
 * **Components:**
   - **Customer Delight:** Craft offerings that exceed expectations and inspire loyalty.

@@ -10,3 +10,24 @@ To drive sustainable growth and create positive change.
 
 ## Outcomes
 Strengthened brand reputation, societal impact, and alignment with evolving market demands.
+
+```mermaid
+erDiagram
+  IMPACT ||--o{ OBJECTIVE : has
+  IMPACT ||--o{ COMPONENTS : has
+  IMPACT ||--o{ OUTCOMES : has
+
+  OBJECTIVE {
+    string description
+  }
+
+  COMPONENTS {
+    string valueCreation
+    string sustainability
+    string adaptability
+  }
+
+  OUTCOMES {
+    string description
+  }
+```

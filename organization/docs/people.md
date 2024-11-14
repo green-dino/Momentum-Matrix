@@ -1,5 +1,6 @@
 # People
 
+
 ## Objective
 To develop high-performing, purpose-driven teams.
 
