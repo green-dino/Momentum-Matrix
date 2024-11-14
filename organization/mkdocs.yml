@@ -13,6 +13,8 @@ theme:
     code: 'Roboto Mono'
   logo: 'images/logo.png'
   favicon: 'images/favicon.ico'
+  features:
+    - navigation.footer
 
 nav:
   - Home: index.md
@@ -28,12 +30,10 @@ nav:
 
 extra:
   social:
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/yourprofile
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/yourprofile
+      link: http://linkedin.com/in/ryeieio/
     - icon: fontawesome/brands/github
-      link: https://github.com/yourprofile
+      link: http://github.com/green-dino
 
 markdown_extensions:
 
@@ -88,7 +88,7 @@ extra_javascript:
 
 # Metadata for SEO
 extra:
-  generator: mkdocs
+  generator: false
   robots: index, follow
   keywords: growth hacking, strategic growth, leadership, high-performing teams, innovation, social impact, economic change
   description: The Momentum Matrix provides a strategic path for organizations to achieve scalable growth, increased impact, and enriched experiences—fueling momentum toward a sustainable and impactful future.
