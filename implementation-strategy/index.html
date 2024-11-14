@@ -425,6 +425,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#symbols-and-their-meanings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Symbols and Their Meanings
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -546,6 +555,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#symbols-and-their-meanings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Symbols and Their Meanings
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -562,12 +580,56 @@
 
 
 <h1 id="implementation-strategy">Implementation Strategy<a class="headerlink" href="#implementation-strategy" title="Permanent link">&para;</a></h1>
+<pre class="mermaid"><code>sequenceDiagram
+  autonumber
+
+  participant Leadership as Empowering People
+  participant Product as Refining Offerings
+  participant Impact as Amplifying Impact
+  participant CustomerJourney as Customer Journey
+
+  Leadership-&gt;&gt;Leadership: Invest in leadership
+  Leadership-&gt;&gt;Leadership: Drive purpose-driven engagement
+  Leadership-&gt;&gt;Leadership: Develop skills for empowerment
+
+  Note right of Leadership: Empowering People
+
+  Leadership-&gt;&gt;Product: Transition to Product Innovation
+  Product-&gt;&gt;Product: Focus on customer-driven improvements
+  Product-&gt;&gt;Product: Continuously refine offerings
+
+  Note right of Product: Refining Offerings
+
+  Product-&gt;&gt;Impact: Progress towards measurable impact
+  Impact-&gt;&gt;Impact: Set measurable goals
+  Impact-&gt;&gt;Impact: Align with sustainable practices
+  Impact-&gt;&gt;CustomerJourney: Link goals to customer stages
+
+  Note right of Impact: Amplifying Impact
+
+  CustomerJourney-&gt;&gt;CustomerJourney: Data collection at each stage
+  CustomerJourney--&gt;&gt;Leadership: Feedback loop for skill needs
+  CustomerJourney--&gt;&gt;Product: Insights for product refinement
+  CustomerJourney--&gt;&gt;Impact: Insights on social/environmental impact
+
+  Note right of CustomerJourney: Continuous flow for improvement</code></pre>
 <h2 id="empowering-people">Empowering People<a class="headerlink" href="#empowering-people" title="Permanent link">&para;</a></h2>
 <p>Invest in leadership, purpose-driven engagement, and skill development.</p>
 <h2 id="refining-offerings">Refining Offerings<a class="headerlink" href="#refining-offerings" title="Permanent link">&para;</a></h2>
 <p>Foster customer-focused product innovation and continuous improvement.</p>
 <h2 id="amplifying-impact">Amplifying Impact<a class="headerlink" href="#amplifying-impact" title="Permanent link">&para;</a></h2>
 <p>Set measurable goals for social and environmental impact, aligning business growth with sustainable practices.</p>
+<h2 id="symbols-and-their-meanings">Symbols and Their Meanings<a class="headerlink" href="#symbols-and-their-meanings" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Stars (★)</strong> - <strong>Automation Triggers</strong><br />
+<em>Example</em>: Trigger follow-up email after customer interaction.</li>
+<li><strong>Cylinders (⬤)</strong> - <strong>Data Collection Points</strong><br />
+<em>Example</em>: Capture user behavior data on the website.</li>
+<li><strong>Rectangles (▭)</strong> - <strong>Stages of Customer Journey</strong><br />
+<em>Example</em>: Awareness, Consideration, Conversion, etc.</li>
+<li><strong>Arrows (→)</strong> - <strong>Flow Direction</strong><br />
+<em>Example</em>: Progression from Awareness to Consideration.</li>
+</ul>
 
 
 
@@ -620,6 +682,10 @@
       <script src="../assets/javascripts/bundle.e1c3ead8.min.js"></script>
       
         <script src="../js/custom.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="../javascripts/tablesort.js"></script>
       
     
   </body>

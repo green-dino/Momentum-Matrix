@@ -546,6 +546,34 @@
 
 
 <h1 id="purpose-and-rationale">Purpose and Rationale<a class="headerlink" href="#purpose-and-rationale" title="Permanent link">&para;</a></h1>
+<pre class="mermaid"><code>gitGraph
+    commit id: "Initial Purpose"
+    branch why-we-do-it
+    commit id: "Why We Do It: Sustainable growth, future-proofing, impact"
+    checkout main
+    branch framework-overview
+    commit id: "Framework Overview: Focus on Impact, People, Offerings"
+    checkout main
+    branch customer-journey
+    commit id: "Customer Journey: Awareness"
+    branch awareness
+    commit id: "★ Trigger follow-up email"
+    commit id: "⬤ Collect behavior data"
+    checkout customer-journey
+    branch consideration
+    commit id: "Consideration"
+    commit id: "★ Personalized content"
+    commit id: "⬤ Survey feedback"
+    checkout customer-journey
+    branch conversion
+    commit id: "Conversion"
+    commit id: "★ Purchase confirmation"
+    commit id: "⬤ Purchase data"
+    checkout customer-journey
+    branch retention
+    commit id: "Retention"
+    commit id: "★ Loyalty program invite"
+    commit id: "⬤ Collect satisfaction data"</code></pre>
 <h2 id="why-we-do-it">Why We Do It<a class="headerlink" href="#why-we-do-it" title="Permanent link">&para;</a></h2>
 <p>To build sustainable growth, future-proof operations, and drive meaningful impact.</p>
 <h2 id="framework-overview">Framework Overview<a class="headerlink" href="#framework-overview" title="Permanent link">&para;</a></h2>
@@ -602,6 +630,10 @@
       <script src="../assets/javascripts/bundle.e1c3ead8.min.js"></script>
       
         <script src="../js/custom.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="../javascripts/tablesort.js"></script>
       
     
   </body>

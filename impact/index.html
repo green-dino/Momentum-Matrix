@@ -574,6 +574,24 @@
 </ul>
 <h2 id="outcomes">Outcomes<a class="headerlink" href="#outcomes" title="Permanent link">&para;</a></h2>
 <p>Strengthened brand reputation, societal impact, and alignment with evolving market demands.</p>
+<pre class="mermaid"><code>erDiagram
+  IMPACT ||--o{ OBJECTIVE : has
+  IMPACT ||--o{ COMPONENTS : has
+  IMPACT ||--o{ OUTCOMES : has
+
+  OBJECTIVE {
+    string description
+  }
+
+  COMPONENTS {
+    string valueCreation
+    string sustainability
+    string adaptability
+  }
+
+  OUTCOMES {
+    string description
+  }</code></pre>
 
 
 
@@ -626,6 +644,10 @@
       <script src="../assets/javascripts/bundle.e1c3ead8.min.js"></script>
       
         <script src="../js/custom.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="../javascripts/tablesort.js"></script>
       
     
   </body>
